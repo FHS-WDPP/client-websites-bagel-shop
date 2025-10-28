@@ -1,9 +1,16 @@
 :root {
-    --primary-color: #bd632f;
-    --secondary-color: #D8973C;
-    --neutral-color: #eb31c5;
-    --neutral-dark: rgb(255, 206, 244);
-    --accent-color: light #d3d3ff;
+    --primary-color: #f5EDE0;
+    --secondary-color: lab(87.22% 4.38 11.5);
+    --neutral-color: #6B4F3B;
+    --neutral-dark: #928185;
+    --accent-color: #FFFFFF;
+}  
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
