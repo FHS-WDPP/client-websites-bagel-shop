@@ -1,8 +1,65 @@
+body {
+     background-image: url("../img/images.jpg");
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+    background-color: hsl(31, 16%, 44%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: #e2d3d3;
+    margin: 0;
+}
+
+.navbar .links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: lab(93.14% 3.38 16.95);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hero h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: hsl(29, 40%, 76%);
+    color: white;
+    cursor: pointer;
+}
+
 :root {
-    --primary-color: #f5EDE0;
-    --secondary-color: lab(87.22% 4.38 11.5);
-    --neutral-color: #6B4F3B;
-    --neutral-dark: #928185;
+    --primary-color: hsl(37, 53%, 84%);
+    --secondary-color: lch(80.98% 14.56 69.3);
+    --neutral-color: oklab(68.31% 0.06648 0.09061 / 0.849);
+    --neutral-dark: hwb(37 20% 75%);
     --accent-color: #FFFFFF;
 }  
 
