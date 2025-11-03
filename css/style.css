@@ -1,5 +1,8 @@
 body {
-     background-image: url("../img/images.jpg");
+  background-image: url('../img/images.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
     margin: 0;
     font-family: Arial, sans-serif;
 }
